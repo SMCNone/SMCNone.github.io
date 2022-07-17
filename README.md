@@ -1,1 +1,1 @@
-# https-smcnone.github.io-
+# https://smcnone.github.io
