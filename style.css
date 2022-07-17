@@ -1,0 +1,333 @@
+/* BootStrap Breakpoints
+  $grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+); */
+
+/* NavBar: background-color: #212529; */
+
+/* Grand écran 
+@media screen and (min-width:769px) */
+
+/* smartphone 
+ @media screen and (max-width:768px){ */
+
+
+ /* Google Font */ 
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+html,
+body {
+  scroll-behavior:smooth;
+  overflow-x: hidden;
+  background-color: rgb(134 156 139);
+  color: white;
+  font-family: "Lato", sans-serif; 
+}
+
+
+/* Grand écran 
+@media screen and (min-width:769px) */
+
+/* Page Inicio */
+.socialNav {
+  display:none;
+}
+
+.carousel-indicators button {
+  height: 20px !important;
+  width: 20px !important;
+  border-radius: 100%;
+}
+
+.carousel-item img {  
+  margin-top: 97px;
+  border-radius:5px;
+}
+
+main {
+  margin: 50px 0;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.descriptionText {
+  margin: 20px;
+  line-height: 1.875rem;
+  font-size: 1.125rem;
+}
+
+/* CSS pour le data.jSon */
+#beerType {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.photoBeer {
+  margin-top:50px;
+  width: 28rem;
+  height: auto;
+}
+
+.photoBeer:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.4);
+}
+
+.descriptionBeer {
+  background-color: #212529;
+  text-align: center;
+  width: 25rem;
+  height: 16rem;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 2%;
+  border: 2px solid rgb(151, 86, 7);
+}
+
+/* Video */
+.beerVideo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  height: 50vh;
+  width: 100%;
+  background-color: #212529;
+  border: solid 3px rgb(83, 47, 3);
+  border-radius: 2%; 
+  margin-top: 50px;
+}
+
+/* footer avec les reseaux sociaux et bouton retour au top */
+.footer {
+  background-color: #212529;
+  border-top: solid 3px rgb(153, 87, 7);
+  font-size: 1.125rem;
+  padding: 20px 10px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+}
+
+/* Fin Page Inicio */
+
+
+/* Page Sobre avec CSS Grid*/
+.about {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  justify-items: center;
+  align-items: center;
+  gap:20px;
+  margin-top: 150px;
+}
+
+.descriptionAbout {
+  justify-self: center;
+  align-self: center;
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+  text-align: center;
+  padding: 20px; 
+  background-color: #212529b5;
+  border-radius: 10px 0;
+  border: 2px solid rgba(153, 87, 7, 0.695)
+}
+
+.photoAbout {
+  justify-self: center;
+  align-self: center;
+}
+
+.photoAbout img {
+  max-width: 100%; 
+  height: auto;
+  border-radius: 10px 0;
+}
+/* Fin Page Sobre  */
+
+
+/* Page Gallery - Dans le Fichier gallery.CSS */
+
+
+/* Page contacto */
+.contactTitle {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.forms>p a {
+  text-decoration-line:none;
+  color: white;
+  font-weight: bold;
+}
+
+.contact {
+  margin: 70px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  background-color: #2125297f;
+  border-radius: 10px 0;
+  position: relative;
+}
+
+/* BackGround Video */
+.bkVideo {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.1;
+  position: absolute;
+}
+
+/* Formulaire */
+.forms {
+  padding: 20px 0;
+  text-align: center;
+  z-index:99;
+}
+
+.forms:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+  }
+
+.inputform {
+  margin: 10px;
+  padding: 5px 0;
+}
+
+input, textarea {
+  border-radius:0.5rem; 
+  background-color:azure ;
+  color:  gray;
+  font-size: 1.1rem;
+  border: 0.1rem solid #212529; 
+  letter-spacing: 0.1rem;
+  max-height: 10rem;
+  width: 100%;
+  padding-left: 0.3rem;
+  cursor: pointer;
+}
+
+.myButton {
+  border-radius:0.5rem; 
+  border: 0.1rem solid #212529;
+  padding: 0.5rem 0;
+  background: linear-gradient(rgb(134 156 139),rgba(134, 156, 139, 0));
+  color: #212529;
+  box-shadow: 5px 5px 5px#212529;
+  font-weight:bolder;
+  width: 95%;
+}
+
+.myButton:hover:active {
+  background: linear-gradient(rgba(134, 156, 139, 0),rgb(134 156 139));
+  transform:translateY(-4px);
+}
+
+/* Map */
+.maps {
+  padding: 20px 0;
+  z-index:99;
+  align-self: center;
+  justify-items: center; 
+}
+
+.maps:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+  }
+
+.maps iframe {
+  border-radius:20px 0;
+  align-self: center;
+  width: 100%;
+  height: 50vh; 
+  box-shadow: 5px 5px 5px#212529; 
+}
+
+/* tablette et smartphone */
+@media screen and (max-width: 768px) {
+
+  .socialNav {
+    display: block;
+    padding:10px 10px 10px 0;
+  }
+
+  .socialNav a {
+    margin-right: 5px;
+  }
+
+  .descriptionBeer {
+    width: 21rem;
+    height: 17rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap:0px;
+    text-align: center;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+/* smartphone */
+@media screen and (max-width: 576px) {
+
+  .carousel-item img {  
+    height: 27vh;
+  }
+
+  .photoBeer {
+    width: 40rem;
+    height: auto;
+  }
+
+  .photoBeer:hover {
+    transition:none;
+    transform: none;
+  } 
+
+}
+

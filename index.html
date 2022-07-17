@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- meta description pour les moteurs de recherche  -->
+    <meta name="description" content="Com origem numa aldeia Beirã localizada no interior centro de Portugal, o conceito por detrás da cerveja TINHOSA nasce da paixão do seu criador pelo mundo cervejeiro. Será uma cerveja artesanal e não pasteurizada">
+
+    <!-- meta viewport pour le responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <title> TINHHOSA | Cerveja Artesanal </title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <!-- NavBar avec Bootstrap -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark py-1 fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="images/logo_tinhosa_verde_y_tasparente.png" alt="logo tinhosa cerveja artesanal" width="200rem">
+        </a>
+        <button 
+          class="navbar-toggler" 
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link"> Inicio </a>
+            </li>
+            <li class="nav-item">
+              <a href="sobre.html" class="nav-link"> Sobre </a>
+            </li>
+            <li class="nav-item">
+              <a href="galeria.html" class="nav-link"> Galeria </a>
+            </li>
+            <li class="nav-item">
+              <a href="contacto.html" class="nav-link"> Contacto </a>
+            </li>
+          </ul>
+          
+          <!-- Reseaux Sociaux dans le NavBar pour les tablettes et smartphones -->
+          <div class="socialNav">
+            <a href="https://www.facebook.com/tinhosacerveja" target="_blank">
+              <i class="bi bi-facebook text-white h3"></i> </a>
+            <a href="https://www.instagram.com/tinhosacerveja/" target="_blank">
+              <i class="bi bi-instagram text-white h3"></i>  
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- Bootstrap Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">    
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/site_cover1.jpg" class="d-block w-100 card-img-top" alt="cerveja_tinhosa_1">
+        </div>
+        <div class="carousel-item">
+          <img src="images/site_cover2.jpg" class="d-block w-100 card-img-top" alt="cerveja_tinhosa_2">
+        </div>
+        <div class="carousel-item">
+          <img src="images/site_cover3.jpg" class="d-block w-100 card-img-top" alt="cerveja_tinhosa_3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div> 
+    
+
+    <!-- Description de l'enterprise -->
+    <main>
+      <div class="container">
+        <h1> Tinhosa | Cerveja Artesanal </h1>
+        <h2> O Nosso Sonho </h2>
+        <p class="descriptionText">Um cervejeiro artesanal distingue-se das grandes marcas de produção industrial pela dedicação e empenho que emprega na criação das suas cervejas. Pura, sem conservantes, não pasteurizada e não filtrada. E é este o conceito que queremos transportar para a cerveja TINHOSA, uma cerveja intacta, que mantém todas as suas propriedades sensoriais, fresca e única, porque o que nos move não será a aparência, será o sabor.
+        Pretendemos ser um pequeno produtor, produzindo lotes exclusivos de cerveja. Só assim conseguiremos garantir toda a qualidade que pretendemos entregar numa garrafa de cerveja TINHOSA.
+        A nossa gama será composta por três best-sellers, a maltada Blonde Ale, a lúpulada IPA e a “mui nobre” Dry Stout.
+        Atualmente a cerveja TINHOSA é um conceito, o nosso sonho será um dia poder produzi-la e comercializá-la.</p>
+      </div>
+    </main>
+
+
+    <!-- data.Json / Tout les bières disponibles -->
+    <!--  <div id="beerType">
+      <div>
+        <img class="photoBeer" src="images_json/cerveja_tinhosa_blonde_ale.png">
+        <article class="descriptionBeer">
+          <h2>TINHOSA BLONDE ALE</h2>
+          <h3>6,0%, 20 IBU</h3>
+          <p>Característica da escola cervejeira americana, é uma cerveja artesanal orientada para o malte. Bem equilibrada e refrescante, ninguém lhe ficará indiferente. A cerveja ideal para beber em qualquer ocasião.</p>
+        </article>
+      </div>
+      <div>
+        <img class="photoBeer" src="images_json/cerveja_tinhosa_IPA.png">
+        <article class="descriptionBeer">
+          <h2>TINHOSA IPA</h2>
+          <h3>6,1%, 40 IBU</h3>
+          <p>Bastante lupulada e levemente amarga, apresentando variedades distintas de lúpulos. No nosso caso utilizaremos exclusivamente lúpulos americanos. Possui um sabor e aroma bem característicos, de onde se destacam os cítricos e frutas tropicais.</p>
+        </article>
+      </div>
+      <div>
+        <img class="photoBeer" src="images_json/cerveja_tinhosa_dry_stout.png">
+        <article class="descriptionBeer">
+          <h2>TINHOSA DRY STOUT</h2>
+          <h3>4,9%, 35 IBU</h3>
+          <p>A Dry Stout caracteriza-se pelo seu sabor tostado bem pronunciado, muitas vezes semelhante ao do café ou do chocolate negro. Esta Ale será a escolha perfeita para os amantes da cerveja preta.</p>
+        </article>
+      </div>
+    </div> -->         
+    <div id="beerType"></div>
+    
+
+    <!-- Video -->
+    <div class="container">
+      <div class="beerVideo">
+        <video autoplay mute loop controls src="images/beerVideo.mp4"></video>
+      </div>
+    </div>
+
+    
+    <!-- Footer -->  
+    <footer class="position-relative">     
+      <div class="footer">
+        <div class="copyright">
+          <p> Copyright &copy 2022 TINHOSA | Cerveja Artesanal - All Rights Reserved </p>
+        </div>
+        <div class="social">
+          <a href="https://www.facebook.com/tinhosacerveja" target="_blank">
+            <i class="bi bi-facebook text-white h2"></i> </a>
+          <a href="https://www.instagram.com/tinhosacerveja/" target="_blank">
+            <i class="bi bi-instagram text-white h2"></i>  
+          </a>
+        </div>
+      </div>
+      <a href="#" class="position-absolute bottom-0 end-1 p-4 seta">
+        <i class="bi bi-arrow-up-circle text-white h1"></i>
+      </a> 
+    </footer>
+    
+
+    <!-- CDN's et Script's  -->
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- HubSpot Chat -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/26065155.js"></script>
+
+    <!-- Mon script JS -->  
+    <script src="script.js"></script>
+    <script src="softscroll.js"></script>
+
+  </body>
+</html>

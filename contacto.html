@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- meta description pour les moteurs de recherche  -->
+    <meta name="description" content="Com origem numa aldeia Beirã localizada no interior centro de Portugal, o conceito por detrás da cerveja TINHOSA nasce da paixão do seu criador pelo mundo cervejeiro. Será uma cerveja artesanal e não pasteurizada">
+
+    <!-- meta viewport pour le responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <title> TINHHOSA | Cerveja Artesanal </title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- NavBar avec Bootstrap -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark py-1 fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="images/logo_tinhosa_verde_y_tasparente.png" alt="logo tinhosa cerveja artesanal" width="200rem">
+        </a>
+        <button 
+          class="navbar-toggler" 
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link"> Inicio </a>
+            </li>
+            <li class="nav-item">
+              <a href="sobre.html" class="nav-link"> Sobre </a>
+            </li>
+            <li class="nav-item">
+              <a href="galeria.html" class="nav-link"> Galeria </a>
+            </li>
+            <li class="nav-item">
+              <a href="contacto.html" class="nav-link"> Contacto </a>
+            </li>
+          </ul>
+
+          <!-- Reseaux Sociaux dans le NavBar pour les tablettes et smartphones -->
+          <div class="socialNav">
+            <a href="https://www.facebook.com/tinhosacerveja" target="_blank">
+              <i class="bi bi-facebook text-white h3"></i> </a>
+            <a href="https://www.instagram.com/tinhosacerveja/" target="_blank">
+              <i class="bi bi-instagram text-white h3"></i>  
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contact Form -->
+    <article class="container">
+      <h1 class="contactTitle">Tinhosa | Entra em contacto</h1>
+      <div class="contact">
+        <video
+          class="bkVideo"
+          autoplay
+          muted
+          loop
+          src="images/beerVideo.mp4">
+        </video>       
+        <div class="forms">
+          <!-- Bold Style -->
+          <p><strong> Beira Litoral, Portugal</strong></p>
+          <!-- Email Link -->
+          <p>
+            <a href="mailto:info@tinhosacerveja.pt"> info@tinhosacerveja.pt</a>
+          </p>
+          <form id="form">
+            <div class="inputform">
+              <input 
+                type="text" 
+                name="nome" 
+                id="nome" 
+                placeholder=" Nome *">
+              <div class="error"></div>  
+            </div>
+            <div class="inputform">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder=" Email@domain.com *">
+              <div class="error"></div>  
+            </div>
+            <div class="inputform">
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                placeholder=" Telefone/Telemóvel *">
+              <div class="error"></div>  
+            </div>
+            <div class="inputform">
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder=" Assunto *"/>
+              <div class="error"></div>  
+            </div>
+            <div class="inputform">
+              <textarea
+                name="message"
+                id="message"
+                cols="40"
+                rows="5"
+                placeholder="Coloque aqui a sua questão">
+              </textarea>
+              <div class="error"></div>  
+            </div>
+            <button type="submit" class="myButton"> Submit </button>
+          </form>
+        </div>
+        <div class="maps">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12236.716672925373!2d-8.23347156358471!3d39.93738182077771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2293fe5a7f8199%3A0x7a8942b0edbdd87a!2sVila%20Facaia%2C%20Portugal!5e0!3m2!1sfr!2sch!4v1656853330299!5m2!1sfr!2sch"       
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </article>
+
+
+
+    <!-- Footer -->  
+    <footer class="position-relative">     
+      <div class="footer">
+        <div class="copyright">
+          <p> Copyright &copy 2022 TINHOSA | Cerveja Artesanal - All Rights Reserved </p>
+        </div>
+        <div class="social">
+          <a href="https://www.facebook.com/tinhosacerveja" target="_blank">
+            <i class="bi bi-facebook text-white h2"></i> </a>
+          <a href="https://www.instagram.com/tinhosacerveja/" target="_blank">
+            <i class="bi bi-instagram text-white h2"></i>  
+          </a>
+        </div>
+      </div>
+      <a href="#" class="position-absolute bottom-0 end-1 p-4 seta">
+        <i class="bi bi-arrow-up-circle text-white h1"></i>
+      </a> 
+    </footer>
+
+    <!-- CDN's et Script's  -->
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!--  HubSpot Chat -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/26065155.js"></script>
+
+    <!-- Mon script JS -->
+    <script src="script.js"></script>
+    <script src="softscroll.js"></script>
+
+  </body>
+</html>

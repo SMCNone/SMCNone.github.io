@@ -1,0 +1,23 @@
+[
+  {
+    "name": "TINHOSA BLONDE ALE",
+    "abv": "6,0%",
+    "ibu": "20 IBU",
+    "photo": "cerveja_tinhosa_blonde_ale.png",
+    "description": "Característica da escola cervejeira americana, é uma cerveja artesanal orientada para o malte. Bem equilibrada e refrescante, ninguém lhe ficará indiferente. A cerveja ideal para beber em qualquer ocasião."
+  },
+  {
+    "name": "TINHOSA IPA",
+    "abv": "6,1%",
+    "ibu": "40 IBU",
+    "photo": "cerveja_tinhosa_IPA.png",
+    "description": "Bastante lupulada e levemente amarga, apresentando variedades distintas de lúpulos. No nosso caso utilizaremos exclusivamente lúpulos americanos. Possui um sabor e aroma bem característicos, de onde se destacam os cítricos e frutas tropicais."
+  },
+  {
+    "name": "TINHOSA DRY STOUT",
+    "abv": "4,9%",
+    "ibu": "35 IBU",
+    "photo": "cerveja_tinhosa_dry_stout.png",
+    "description": "A Dry Stout caracteriza-se pelo seu sabor tostado bem pronunciado, muitas vezes semelhante ao do café ou do chocolate negro. Esta Ale será a escolha perfeita para os amantes da cerveja preta."
+  }
+]

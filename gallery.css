@@ -1,0 +1,79 @@
+
+/* CSS pour le Gallery 
+  j'ai eu une incomptabilite avec le cdn lightbox pour bootstrap et le carrousel dans l'index, c'est pour ça que j'ai séparé les deux CSS 
+*/
+
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  scroll-behavior:smooth;
+  background-color: rgb(134 156 139);
+  color: white;
+  font-family: "Lato", sans-serif; 
+}
+
+.socialNav {
+  display:none;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.titleGallery {
+  margin: 120px 0 50px 0;
+  text-align: center;
+}
+
+.gallery {
+  overflow: hidden;
+}
+
+.gallery img {
+  margin-bottom: 50px;
+  border-radius: 10px 0 10px 0;
+  border: 5px outset #212529ca;
+}
+
+.footer {
+  background-color: #212529;
+  border-top: solid 3px rgb(153, 87, 7);
+  font-size: 1.125rem;
+  padding: 20px 10px;
+  margin-top: 70px 0 200px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+}
+
+/* Tablette et Smartphone */
+@media screen and (max-width: 768px) {
+
+  .socialNav {
+    display: block;
+    padding:10px 10px 10px 0;
+  }
+
+  .socialNav a {
+    margin-right: 5px;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap:0px;
+    text-align: center;
+  }
+}
